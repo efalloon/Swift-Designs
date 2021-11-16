@@ -13,7 +13,27 @@
 		66650C4327435C5E00294E67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66650C4127435C5E00294E67 /* Main.storyboard */; };
 		66650C4527435C6000294E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66650C4427435C6000294E67 /* Assets.xcassets */; };
 		66650C4827435C6000294E67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66650C4627435C6000294E67 /* LaunchScreen.storyboard */; };
+		668C4E732743905C00D7A721 /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 668C4E722743905C00D7A721 /* Hero */; };
+		668C4E74274393DB00D7A721 /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 668C4E722743905C00D7A721 /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		668F35FE2743753700218E07 /* AvertaStd-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668F35FD2743753700218E07 /* AvertaStd-Regular.ttf */; };
+		668F36002743754700218E07 /* AvertaStd-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668F35FF2743754700218E07 /* AvertaStd-Semibold.ttf */; };
+		668F360227437D9900218E07 /* shoe-data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F360127437D9900218E07 /* shoe-data.swift */; };
+		668F360727438E3F00218E07 /* ShoeInspectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F360627438E3F00218E07 /* ShoeInspectionViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		668C4E75274393DB00D7A721 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				668C4E74274393DB00D7A721 /* Hero in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		66650C3827435C5E00294E67 /* Nike Shoe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike Shoe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +44,10 @@
 		66650C4427435C6000294E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66650C4727435C6000294E67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66650C4927435C6000294E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668F35FD2743753700218E07 /* AvertaStd-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvertaStd-Regular.ttf"; sourceTree = "<group>"; };
+		668F35FF2743754700218E07 /* AvertaStd-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvertaStd-Semibold.ttf"; sourceTree = "<group>"; };
+		668F360127437D9900218E07 /* shoe-data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "shoe-data.swift"; sourceTree = "<group>"; };
+		668F360627438E3F00218E07 /* ShoeInspectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeInspectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668C4E732743905C00D7A721 /* Hero in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +81,51 @@
 		66650C3A27435C5E00294E67 /* Nike Shoe App */ = {
 			isa = PBXGroup;
 			children = (
-				66650C3B27435C5E00294E67 /* AppDelegate.swift */,
-				66650C3D27435C5E00294E67 /* SceneDelegate.swift */,
-				66650C3F27435C5E00294E67 /* ViewController.swift */,
-				66650C4127435C5E00294E67 /* Main.storyboard */,
+				668F360327437DAF00218E07 /* delegates */,
+				668F35FC2743751C00218E07 /* fonts */,
+				668F360527437DDD00218E07 /* view controllers */,
 				66650C4427435C6000294E67 /* Assets.xcassets */,
-				66650C4627435C6000294E67 /* LaunchScreen.storyboard */,
 				66650C4927435C6000294E67 /* Info.plist */,
 			);
 			path = "Nike Shoe App";
+			sourceTree = "<group>";
+		};
+		668F35FC2743751C00218E07 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				668F35FD2743753700218E07 /* AvertaStd-Regular.ttf */,
+				668F35FF2743754700218E07 /* AvertaStd-Semibold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		668F360327437DAF00218E07 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				66650C3B27435C5E00294E67 /* AppDelegate.swift */,
+				66650C3D27435C5E00294E67 /* SceneDelegate.swift */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		668F360427437DCA00218E07 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				66650C4127435C5E00294E67 /* Main.storyboard */,
+				66650C4627435C6000294E67 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		668F360527437DDD00218E07 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				668F360427437DCA00218E07 /* storyboards */,
+				668F360127437D9900218E07 /* shoe-data.swift */,
+				668F360627438E3F00218E07 /* ShoeInspectionViewController.swift */,
+				66650C3F27435C5E00294E67 /* ViewController.swift */,
+			);
+			path = "view controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +138,16 @@
 				66650C3427435C5E00294E67 /* Sources */,
 				66650C3527435C5E00294E67 /* Frameworks */,
 				66650C3627435C5E00294E67 /* Resources */,
+				668C4E75274393DB00D7A721 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Nike Shoe App";
+			packageProductDependencies = (
+				668C4E722743905C00D7A721 /* Hero */,
+			);
 			productName = "Nike Shoe App";
 			productReference = 66650C3827435C5E00294E67 /* Nike Shoe App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 66650C2F27435C5E00294E67;
+			packageReferences = (
+				668C4E712743905C00D7A721 /* XCRemoteSwiftPackageReference "Hero" */,
+			);
 			productRefGroup = 66650C3927435C5E00294E67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +195,9 @@
 			files = (
 				66650C4827435C6000294E67 /* LaunchScreen.storyboard in Resources */,
 				66650C4527435C6000294E67 /* Assets.xcassets in Resources */,
+				668F35FE2743753700218E07 /* AvertaStd-Regular.ttf in Resources */,
 				66650C4327435C5E00294E67 /* Main.storyboard in Resources */,
+				668F36002743754700218E07 /* AvertaStd-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668F360227437D9900218E07 /* shoe-data.swift in Sources */,
+				668F360727438E3F00218E07 /* ShoeInspectionViewController.swift in Sources */,
 				66650C4027435C5E00294E67 /* ViewController.swift in Sources */,
 				66650C3C27435C5E00294E67 /* AppDelegate.swift in Sources */,
 				66650C3E27435C5E00294E67 /* SceneDelegate.swift in Sources */,
@@ -295,8 +367,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +380,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,8 +397,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +410,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		668C4E712743905C00D7A721 /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		668C4E722743905C00D7A721 /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 668C4E712743905C00D7A721 /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66650C3027435C5E00294E67 /* Project object */;
 }
