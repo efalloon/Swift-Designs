@@ -289,12 +289,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="325"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="m68-Xh-mgK">
-                                        <rect key="frame" x="0.0" y="95" width="375" height="150"/>
+                                        <rect key="frame" x="0.0" y="100" width="375" height="150"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="vYG-da-3MB"/>
                                         </constraints>
-                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Sjr-QN-8qu">
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Sjr-QN-8qu">
                                             <size key="itemSize" width="334" height="141"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -302,7 +302,7 @@
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShoeGalleryCollectionViewCell" id="Qvm-Tt-evB" customClass="ShoeGalleryCollectionViewCell" customModule="Nike_Shoe_App" customModuleProvider="target">
-                                                <rect key="frame" x="20.666666666666668" y="0.0" width="334" height="141"/>
+                                                <rect key="frame" x="0.0" y="4.666666666666667" width="334" height="141"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EQm-TA-VWp">
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="141"/>
@@ -331,23 +331,46 @@
                                             <outlet property="delegate" destination="von-gm-WBv" id="J1j-Q1-M6c"/>
                                         </connections>
                                     </collectionView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="air-zoom-gt-run" translatesAutoresizingMaskIntoConstraints="NO" id="1Gj-Cc-Dxe">
-                                        <rect key="frame" x="0.0" y="95" width="375" height="150"/>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="edd-Zm-tOt">
+                                        <rect key="frame" x="0.0" y="287.66666666666669" width="375" height="7.3333333333333144"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="150" id="RSA-aX-Bua"/>
+                                            <constraint firstAttribute="height" constant="7.5" id="McA-jv-4UK"/>
                                         </constraints>
-                                    </imageView>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BOe-cj-yLF">
+                                            <size key="itemSize" width="23" height="23"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PagingCollectionViewCell" id="R00-mZ-iRZ" customClass="PagingCollectionViewCell" customModule="Nike_Shoe_App" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="-6.333333333333333" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="BW3-yc-cNH">
+                                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </collectionViewCellContentView>
+                                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <size key="customSize" width="20" height="20"/>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="von-gm-WBv" id="TCH-zs-tZP"/>
+                                            <outlet property="delegate" destination="von-gm-WBv" id="XoC-nN-XrM"/>
+                                        </connections>
+                                    </collectionView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="1Gj-Cc-Dxe" secondAttribute="trailing" id="4dg-Ym-nvu"/>
+                                    <constraint firstAttribute="bottom" secondItem="edd-Zm-tOt" secondAttribute="bottom" constant="30" id="BBr-x3-MwH"/>
+                                    <constraint firstAttribute="trailing" secondItem="edd-Zm-tOt" secondAttribute="trailing" id="IuV-M6-W2n"/>
+                                    <constraint firstItem="edd-Zm-tOt" firstAttribute="leading" secondItem="wwA-X7-gWf" secondAttribute="leading" id="Mes-cw-PNG"/>
                                     <constraint firstAttribute="height" constant="325" id="Oce-sq-gNw"/>
-                                    <constraint firstItem="1Gj-Cc-Dxe" firstAttribute="leading" secondItem="wwA-X7-gWf" secondAttribute="leading" id="Okc-zY-dli"/>
                                     <constraint firstItem="m68-Xh-mgK" firstAttribute="leading" secondItem="wwA-X7-gWf" secondAttribute="leading" id="Vnb-IS-Wog"/>
                                     <constraint firstAttribute="trailing" secondItem="m68-Xh-mgK" secondAttribute="trailing" id="mzJ-p4-42l"/>
-                                    <constraint firstItem="1Gj-Cc-Dxe" firstAttribute="top" secondItem="wwA-X7-gWf" secondAttribute="top" constant="95" id="o0O-wM-fz5"/>
-                                    <constraint firstItem="m68-Xh-mgK" firstAttribute="top" secondItem="wwA-X7-gWf" secondAttribute="top" constant="95" id="sY5-M0-oYh"/>
+                                    <constraint firstItem="m68-Xh-mgK" firstAttribute="top" secondItem="wwA-X7-gWf" secondAttribute="top" constant="100" id="sY5-M0-oYh"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJC-l8-knQ">
@@ -414,21 +437,21 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSR-EK-GfE">
-                                <rect key="frame" x="0.0" y="325" width="375" height="190"/>
+                                <rect key="frame" x="0.0" y="325" width="375" height="200"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6so-0l-m1B">
-                                        <rect key="frame" x="25" y="25" width="325" height="140"/>
+                                        <rect key="frame" x="25" y="25" width="325" height="150"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nike" translatesAutoresizingMaskIntoConstraints="NO" id="1cT-pY-zsY">
-                                                <rect key="frame" x="140" y="0.0" width="45" height="45"/>
+                                                <rect key="frame" x="137.66666666666666" y="0.0" width="50" height="45"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="45" id="JQr-WH-8MZ"/>
+                                                    <constraint firstAttribute="width" constant="50" id="JQr-WH-8MZ"/>
                                                     <constraint firstAttribute="height" constant="45" id="iFH-VP-JXC"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$299.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPN-v4-fUv">
-                                                <rect key="frame" x="0.0" y="100" width="325" height="40"/>
+                                                <rect key="frame" x="0.0" y="100" width="325" height="50"/>
                                                 <fontDescription key="fontDescription" name="AvertaStd-Regular" family="AvertaStd-Regular" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -462,7 +485,7 @@
                                     <constraint firstAttribute="bottom" secondItem="6so-0l-m1B" secondAttribute="bottom" constant="25" id="4Tj-dO-jr8"/>
                                     <constraint firstAttribute="trailing" secondItem="6so-0l-m1B" secondAttribute="trailing" constant="25" id="MRn-CK-zA1"/>
                                     <constraint firstItem="6so-0l-m1B" firstAttribute="leading" secondItem="MSR-EK-GfE" secondAttribute="leading" constant="25" id="kvJ-tz-5Wh"/>
-                                    <constraint firstAttribute="height" constant="190" id="uLf-bR-2gn"/>
+                                    <constraint firstAttribute="height" constant="200" id="uLf-bR-2gn"/>
                                     <constraint firstItem="6so-0l-m1B" firstAttribute="top" secondItem="MSR-EK-GfE" secondAttribute="top" constant="25" id="zOz-2p-vdd"/>
                                 </constraints>
                             </view>
@@ -486,8 +509,8 @@
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="collectionView" destination="m68-Xh-mgK" id="jLL-ay-7u3"/>
+                        <outlet property="pagingCollectionView" destination="edd-Zm-tOt" id="07l-LG-1F3"/>
                         <outlet property="primaryImageBackdrop" destination="wwA-X7-gWf" id="3rL-FQ-sf2"/>
-                        <outlet property="primaryImageView" destination="1Gj-Cc-Dxe" id="aLB-56-D1E"/>
                         <outlet property="shoeNameLabel" destination="ScN-Ow-vqm" id="sf0-dB-XuV"/>
                         <outlet property="shoePriceLabel" destination="jPN-v4-fUv" id="JTc-oX-zdI"/>
                     </connections>
@@ -512,6 +535,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
