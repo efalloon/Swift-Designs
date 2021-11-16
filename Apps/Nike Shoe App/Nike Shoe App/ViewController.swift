@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Nike Shoe App Demo
+//  Nike Shoe App
 //
 //  Created by Euan Traynor on 16/11/21.
 //
