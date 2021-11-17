@@ -13,7 +13,7 @@ struct Shoe {
     let primaryImage: String
     let inspectImages: Array<String>
     let sizes: Array<ShoeSize>
-    let liked: BooleanLiteralType
+    var liked: BooleanLiteralType
     let description: String
 }
 

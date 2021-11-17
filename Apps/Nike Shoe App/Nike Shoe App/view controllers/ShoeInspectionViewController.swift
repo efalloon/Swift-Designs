@@ -8,6 +8,10 @@
 import Hero
 import UIKit
 
+class ShoeSizeCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var shoeSizeLabel: UILabel!
+}
+
 class PagingCollectionViewCell: UICollectionViewCell {}
 
 class ShoeGalleryCollectionViewCell: UICollectionViewCell {
@@ -28,8 +32,27 @@ class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, 
     //paging control strip
     @IBOutlet weak var pagingCollectionView: UICollectionView!
     
+    //shoe size strip
+    var selectedShoeSizeIndex: Int? = nil
+    @IBOutlet weak var shoeSizeCollectionView: UICollectionView!
+    
+    @IBOutlet weak var shoppingCartButton: UIButton!
+    @IBOutlet weak var likeButtonBackdrop: UIView!
+    @IBOutlet weak var likeButtonImageView: UIImageView!
+    
     @IBAction func returnButtonAction(_ sender: Any) {
+        let generator = UIImpactFeedbackGenerator(style: .light)
+        generator.impactOccurred()
         dismiss(animated: true, completion: nil)
+    }
+    @IBAction func likeButtonAction(_ sender: Any) {
+        if shoesArray[selectedPreviewIndex!].liked == false {
+            likeButtonImageView.image = UIImage(systemName: "heart.fill")
+            shoesArray[selectedPreviewIndex!].liked = true
+        } else {
+            likeButtonImageView.image = UIImage(systemName: "heart")
+            shoesArray[selectedPreviewIndex!].liked = false
+        }
     }
     
     override func viewDidLoad() {
@@ -51,13 +74,50 @@ class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, 
         collectionView.tag = 0
         
         pagingCollectionView.tag = 1
+        shoeSizeCollectionView.tag = 2
+        
+        shoppingCartButton.layer.cornerRadius = shoppingCartButton.frame.height / 2
+        shoppingCartButton.layer.cornerCurve = .continuous
+        
+        likeButtonBackdrop.layer.cornerRadius = 15
+        likeButtonBackdrop.layer.cornerCurve = .continuous
+        likeButtonBackdrop.layer.borderWidth = 1
+        likeButtonBackdrop.layer.borderColor = UIColor(white: 0.9, alpha: 1).cgColor
+        
+        if data!.liked == true {
+            likeButtonImageView.image = UIImage(systemName: "heart.fill")
+        } else {
+            likeButtonImageView.image = UIImage(systemName: "heart")
+        }
+        
+        let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
+       swipeDown.direction = .down
+       view.addGestureRecognizer(swipeDown)
+    }
+    @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+        if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+            switch swipeGesture.direction {
+            case .right:
+                print("Swiped right")
+            case .down:
+                let generator = UIImpactFeedbackGenerator(style: .light)
+                generator.impactOccurred()
+                dismiss(animated: true, completion: nil)
+            case .left:
+                print("Swiped left")
+            case .up:
+                print("Swiped up")
+            default:
+                break
+            }
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if collectionView.tag == 0 {
+        if collectionView.tag == 0 || collectionView.tag == 1 {
             return data!.inspectImages.count + 1
-        } else if collectionView.tag == 1 {
-            return data!.inspectImages.count + 1
+        } else if collectionView.tag == 2 {
+            return data!.sizes.count
         }
         return 0
     }
@@ -83,8 +143,40 @@ class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, 
             cell.layer.cornerCurve = .continuous
             
             return cell
+        } else if collectionView.tag == 2 {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ShoeSizeCollectionViewCell", for: indexPath) as! ShoeSizeCollectionViewCell
+            
+            cell.shoeSizeLabel.text = String(data!.sizes[indexPath.row].size).replacingOccurrences(of: ".0", with: "").replacingOccurrences(of: ".", with: ",")
+            
+            if data!.sizes[indexPath.row].available == false {
+                cell.backgroundColor = UIColor(white: 0.98, alpha: 1)
+                cell.shoeSizeLabel.textColor = UIColor(white: 0.86, alpha: 1)
+            } else if indexPath.row == selectedShoeSizeIndex {
+                UIView.animate(withDuration: 0.25, animations: {
+                    cell.backgroundColor = .black
+                    cell.shoeSizeLabel.textColor = .white
+                }, completion: nil)
+            } else {
+                cell.backgroundColor = UIColor(red: 246/255, green: 246/255, blue: 246/255, alpha: 1.0)
+                cell.shoeSizeLabel.textColor = .black
+            }
+            
+            cell.layer.cornerRadius = 15
+            cell.layer.cornerCurve = .continuous
+            
+            return cell
         }
         return UICollectionViewCell()
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView.tag == 2 {
+            if indexPath.row == selectedShoeSizeIndex {
+                selectedShoeSizeIndex = nil
+            } else {
+                selectedShoeSizeIndex = indexPath.row
+            }
+            shoeSizeCollectionView.reloadData()
+        }
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView.tag == 0 {
@@ -95,10 +187,15 @@ class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, 
             } else {
                 return CGSize(width: 10, height: 5)
             }
+        } else if collectionView.tag == 2 {
+            return CGSize(width: 65, height: 72.5)
         }
         return CGSize(width: 50, height: 50)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        if collectionView.tag == 2 {
+            return 12.5
+        }
         return 0
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
@@ -115,6 +212,8 @@ class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, 
             let insetValue: CGFloat = (view.frame.width - totalWidth) / 2
 
             return UIEdgeInsets(top: 0, left: insetValue, bottom: 0, right: insetValue)
+        } else if collectionView.tag == 2 {
+            return UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
         }
         return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     }
@@ -123,8 +222,17 @@ class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, 
 //    }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        galleryIndexPosition = Int(ceil(scrollView.contentOffset.x / scrollView.frame.size.width))
-        pagingCollectionView.reloadData()
+        if scrollView.tag == 0 {
+            galleryIndexPosition = Int(ceil(scrollView.contentOffset.x / scrollView.frame.size.width))
+            pagingCollectionView.reloadData()
+        }
+//        else if scrollView.tag == 2 {
+//            if (scrollView.contentSize.width {
+//                let generator = UIImpactFeedbackGenerator(style: .light)
+//                generator.impactOccurred()
+//            }
+//            print(scrollView.contentOffset.x)
+//        }
     }
 }
 
