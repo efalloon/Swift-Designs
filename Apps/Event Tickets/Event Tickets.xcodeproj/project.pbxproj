@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661346B327452C3200283F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661346B227452C3200283F46 /* AppDelegate.swift */; };
+		661346B527452C3200283F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661346B427452C3200283F46 /* SceneDelegate.swift */; };
+		661346B727452C3200283F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661346B627452C3200283F46 /* ViewController.swift */; };
+		661346BA27452C3200283F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661346B827452C3200283F46 /* Main.storyboard */; };
+		661346BC27452C3400283F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661346BB27452C3400283F46 /* Assets.xcassets */; };
+		661346BF27452C3400283F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661346BD27452C3400283F46 /* LaunchScreen.storyboard */; };
+		661346D42745325400283F46 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346C72745325400283F46 /* Roboto-Medium.ttf */; };
+		661346D52745325400283F46 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346C82745325400283F46 /* Roboto-Light.ttf */; };
+		661346D62745325400283F46 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346C92745325400283F46 /* Roboto-Regular.ttf */; };
+		661346D72745325400283F46 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346CA2745325400283F46 /* Roboto-MediumItalic.ttf */; };
+		661346D82745325400283F46 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346CB2745325400283F46 /* Roboto-ThinItalic.ttf */; };
+		661346D92745325400283F46 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346CC2745325400283F46 /* Roboto-BoldItalic.ttf */; };
+		661346DA2745325400283F46 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346CD2745325400283F46 /* Roboto-LightItalic.ttf */; };
+		661346DB2745325400283F46 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346CE2745325400283F46 /* Roboto-Italic.ttf */; };
+		661346DC2745325400283F46 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 661346CF2745325400283F46 /* LICENSE.txt */; };
+		661346DD2745325400283F46 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346D02745325400283F46 /* Roboto-BlackItalic.ttf */; };
+		661346DE2745325400283F46 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346D12745325400283F46 /* Roboto-Bold.ttf */; };
+		661346DF2745325400283F46 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346D22745325400283F46 /* Roboto-Thin.ttf */; };
+		661346E02745325400283F46 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661346D32745325400283F46 /* Roboto-Black.ttf */; };
+		661346E22745397D00283F46 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661346E12745397D00283F46 /* data.swift */; };
+		661F5748277DBBF20099F4BC /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 661F5747277DBBF20099F4BC /* Hero */; };
+		661F574A277DBFBD0099F4BC /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661F5749277DBFBD0099F4BC /* EventDetailViewController.swift */; };
+		665E4831274C8DE9007BCD15 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665E4830274C8DE9007BCD15 /* NavigationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		661346AF27452C3200283F46 /* Event Tickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Tickets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661346B227452C3200283F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		661346B427452C3200283F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		661346B627452C3200283F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		661346B927452C3200283F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		661346BB27452C3400283F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661346BE27452C3400283F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661346C027452C3400283F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661346C72745325400283F46 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		661346C82745325400283F46 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		661346C92745325400283F46 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		661346CA2745325400283F46 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		661346CB2745325400283F46 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		661346CC2745325400283F46 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		661346CD2745325400283F46 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		661346CE2745325400283F46 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		661346CF2745325400283F46 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		661346D02745325400283F46 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		661346D12745325400283F46 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		661346D22745325400283F46 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		661346D32745325400283F46 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		661346E12745397D00283F46 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		661F5749277DBFBD0099F4BC /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventDetailViewController.swift; path = "Event Tickets/EventDetailViewController.swift"; sourceTree = "<group>"; };
+		665E4830274C8DE9007BCD15 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661346AC27452C3200283F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661F5748277DBBF20099F4BC /* Hero in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661346A627452C3100283F46 = {
+			isa = PBXGroup;
+			children = (
+				661F5749277DBFBD0099F4BC /* EventDetailViewController.swift */,
+				661346B127452C3200283F46 /* Event Tickets */,
+				661346B027452C3200283F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661346B027452C3200283F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661346AF27452C3200283F46 /* Event Tickets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661346B127452C3200283F46 /* Event Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				661346B227452C3200283F46 /* AppDelegate.swift */,
+				661346B427452C3200283F46 /* SceneDelegate.swift */,
+				661346B627452C3200283F46 /* ViewController.swift */,
+				665E4830274C8DE9007BCD15 /* NavigationViewController.swift */,
+				661346B827452C3200283F46 /* Main.storyboard */,
+				661346BB27452C3400283F46 /* Assets.xcassets */,
+				661346E12745397D00283F46 /* data.swift */,
+				661346BD27452C3400283F46 /* LaunchScreen.storyboard */,
+				661346C027452C3400283F46 /* Info.plist */,
+				661346C62745325400283F46 /* Roboto */,
+			);
+			path = "Event Tickets";
+			sourceTree = "<group>";
+		};
+		661346C62745325400283F46 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				661346C72745325400283F46 /* Roboto-Medium.ttf */,
+				661346C82745325400283F46 /* Roboto-Light.ttf */,
+				661346C92745325400283F46 /* Roboto-Regular.ttf */,
+				661346CA2745325400283F46 /* Roboto-MediumItalic.ttf */,
+				661346CB2745325400283F46 /* Roboto-ThinItalic.ttf */,
+				661346CC2745325400283F46 /* Roboto-BoldItalic.ttf */,
+				661346CD2745325400283F46 /* Roboto-LightItalic.ttf */,
+				661346CE2745325400283F46 /* Roboto-Italic.ttf */,
+				661346CF2745325400283F46 /* LICENSE.txt */,
+				661346D02745325400283F46 /* Roboto-BlackItalic.ttf */,
+				661346D12745325400283F46 /* Roboto-Bold.ttf */,
+				661346D22745325400283F46 /* Roboto-Thin.ttf */,
+				661346D32745325400283F46 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661346AE27452C3200283F46 /* Event Tickets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661346C327452C3400283F46 /* Build configuration list for PBXNativeTarget "Event Tickets" */;
+			buildPhases = (
+				661346AB27452C3200283F46 /* Sources */,
+				661346AC27452C3200283F46 /* Frameworks */,
+				661346AD27452C3200283F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Event Tickets";
+			packageProductDependencies = (
+				661F5747277DBBF20099F4BC /* Hero */,
+			);
+			productName = "Event Tickets";
+			productReference = 661346AF27452C3200283F46 /* Event Tickets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661346A727452C3100283F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					661346AE27452C3200283F46 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 661346AA27452C3200283F46 /* Build configuration list for PBXProject "Event Tickets" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661346A627452C3100283F46;
+			packageReferences = (
+				661F5746277DBBF10099F4BC /* XCRemoteSwiftPackageReference "Hero" */,
+			);
+			productRefGroup = 661346B027452C3200283F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661346AE27452C3200283F46 /* Event Tickets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661346AD27452C3200283F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661346DE2745325400283F46 /* Roboto-Bold.ttf in Resources */,
+				661346DC2745325400283F46 /* LICENSE.txt in Resources */,
+				661346D92745325400283F46 /* Roboto-BoldItalic.ttf in Resources */,
+				661346D62745325400283F46 /* Roboto-Regular.ttf in Resources */,
+				661346DA2745325400283F46 /* Roboto-LightItalic.ttf in Resources */,
+				661346D42745325400283F46 /* Roboto-Medium.ttf in Resources */,
+				661346BF27452C3400283F46 /* LaunchScreen.storyboard in Resources */,
+				661346DD2745325400283F46 /* Roboto-BlackItalic.ttf in Resources */,
+				661346DF2745325400283F46 /* Roboto-Thin.ttf in Resources */,
+				661346D52745325400283F46 /* Roboto-Light.ttf in Resources */,
+				661346D82745325400283F46 /* Roboto-ThinItalic.ttf in Resources */,
+				661346E02745325400283F46 /* Roboto-Black.ttf in Resources */,
+				661346D72745325400283F46 /* Roboto-MediumItalic.ttf in Resources */,
+				661346BC27452C3400283F46 /* Assets.xcassets in Resources */,
+				661346DB2745325400283F46 /* Roboto-Italic.ttf in Resources */,
+				661346BA27452C3200283F46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661346AB27452C3200283F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661F574A277DBFBD0099F4BC /* EventDetailViewController.swift in Sources */,
+				661346B727452C3200283F46 /* ViewController.swift in Sources */,
+				661346B327452C3200283F46 /* AppDelegate.swift in Sources */,
+				661346B527452C3200283F46 /* SceneDelegate.swift in Sources */,
+				665E4831274C8DE9007BCD15 /* NavigationViewController.swift in Sources */,
+				661346E22745397D00283F46 /* data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661346B827452C3200283F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661346B927452C3200283F46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		661346BD27452C3400283F46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661346BE27452C3400283F46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661346C127452C3400283F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		661346C227452C3400283F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661346C427452C3400283F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J3KP5K37W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Event Tickets/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efalloon.event-tickets.Event-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		661346C527452C3400283F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J3KP5K37W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Event Tickets/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efalloon.event-tickets.Event-Tickets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661346AA27452C3200283F46 /* Build configuration list for PBXProject "Event Tickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661346C127452C3400283F46 /* Debug */,
+				661346C227452C3400283F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661346C327452C3400283F46 /* Build configuration list for PBXNativeTarget "Event Tickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661346C427452C3400283F46 /* Debug */,
+				661346C527452C3400283F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		661F5746277DBBF10099F4BC /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		661F5747277DBBF20099F4BC /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661F5746277DBBF10099F4BC /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 661346A727452C3100283F46 /* Project object */;
+}

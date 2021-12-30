@@ -18,8 +18,6 @@ class ShoeGalleryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var shoeImageView: UIImageView!
 }
 
-var galleryIndexPosition: Int = 0
-
 class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     var data: Shoe? = nil
@@ -30,6 +28,7 @@ class ShoeInspectionViewController: UIViewController, UICollectionViewDelegate, 
     @IBOutlet weak var collectionView: UICollectionView!
     
     //paging control strip
+    var galleryIndexPosition: Int = 0
     @IBOutlet weak var pagingCollectionView: UICollectionView!
     
     //shoe size strip
