@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Hero",
+        "repositoryURL": "https://github.com/HeroTransitions/Hero.git",
+        "state": {
+          "branch": "develop",
+          "revision": "15e78a223f5176cc6f3eefffb6cd62f3a42a9ec4",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
