@@ -6,6 +6,7 @@ By Euan Traynor © November 2021 - Current
 ## Completed Designs ✅
 - https://dribbble.com/shots/10173177-Shoes-App
 - https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app
+- https://dribbble.com/shots/14854794-Starbucks-app-UI-concept
 
 ## Uncompleted Designs ⏳
 - https://dribbble.com/shots/16396562-Podcast-App-Concept-UI
