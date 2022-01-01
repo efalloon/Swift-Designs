@@ -16,6 +16,7 @@ By Euan Traynor © November 2021 - Current
 - https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app
 - https://dribbble.com/shots/14854794-Starbucks-app-UI-concept
 - https://dribbble.com/shots/15921850-Recipe-App
+- https://dribbble.com/shots/16393324-Minimalist-Designers-Categories-Page-Exploration-eCommerce
 
 ## Uncompleted Designs ⏳
 - https://dribbble.com/shots/16396562-Podcast-App-Concept-UI
