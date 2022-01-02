@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E36CAF2780758F00A52086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E36CAE2780758F00A52086 /* AppDelegate.swift */; };
+		66E36CB12780758F00A52086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E36CB02780758F00A52086 /* SceneDelegate.swift */; };
+		66E36CB32780758F00A52086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E36CB22780758F00A52086 /* ViewController.swift */; };
+		66E36CB62780758F00A52086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CB42780758F00A52086 /* Main.storyboard */; };
+		66E36CB82780759800A52086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CB72780759800A52086 /* Assets.xcassets */; };
+		66E36CBB2780759800A52086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CB92780759800A52086 /* LaunchScreen.storyboard */; };
+		66E36CCF2780797200A52086 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CC32780797200A52086 /* TitilliumWeb-Black.ttf */; };
+		66E36CD02780797200A52086 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CC42780797200A52086 /* TitilliumWeb-Bold.ttf */; };
+		66E36CD12780797200A52086 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CC52780797200A52086 /* TitilliumWeb-Regular.ttf */; };
+		66E36CD22780797200A52086 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CC62780797200A52086 /* TitilliumWeb-SemiBold.ttf */; };
+		66E36CD32780797200A52086 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CC72780797200A52086 /* TitilliumWeb-ExtraLight.ttf */; };
+		66E36CD42780797200A52086 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CC82780797200A52086 /* TitilliumWeb-BoldItalic.ttf */; };
+		66E36CD52780797200A52086 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CC92780797200A52086 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		66E36CD62780797200A52086 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CCA2780797200A52086 /* OFL.txt */; };
+		66E36CD72780797200A52086 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CCB2780797200A52086 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		66E36CD82780797200A52086 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CCC2780797200A52086 /* TitilliumWeb-LightItalic.ttf */; };
+		66E36CD92780797200A52086 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CCD2780797200A52086 /* TitilliumWeb-Italic.ttf */; };
+		66E36CDA2780797200A52086 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66E36CCE2780797200A52086 /* TitilliumWeb-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66E36CAB2780758F00A52086 /* Transport App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Transport App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E36CAE2780758F00A52086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66E36CB02780758F00A52086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66E36CB22780758F00A52086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66E36CB52780758F00A52086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66E36CB72780759800A52086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66E36CBA2780759800A52086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66E36CBC2780759800A52086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E36CC32780797200A52086 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		66E36CC42780797200A52086 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		66E36CC52780797200A52086 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		66E36CC62780797200A52086 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		66E36CC72780797200A52086 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		66E36CC82780797200A52086 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		66E36CC92780797200A52086 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		66E36CCA2780797200A52086 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		66E36CCB2780797200A52086 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		66E36CCC2780797200A52086 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		66E36CCD2780797200A52086 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		66E36CCE2780797200A52086 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E36CA82780758F00A52086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66E36CA22780758F00A52086 = {
+			isa = PBXGroup;
+			children = (
+				66E36CAD2780758F00A52086 /* Transport App */,
+				66E36CAC2780758F00A52086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E36CAC2780758F00A52086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E36CAB2780758F00A52086 /* Transport App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E36CAD2780758F00A52086 /* Transport App */ = {
+			isa = PBXGroup;
+			children = (
+				66E36CC22780797200A52086 /* fonts */,
+				66E36CAE2780758F00A52086 /* AppDelegate.swift */,
+				66E36CB02780758F00A52086 /* SceneDelegate.swift */,
+				66E36CB22780758F00A52086 /* ViewController.swift */,
+				66E36CB42780758F00A52086 /* Main.storyboard */,
+				66E36CB72780759800A52086 /* Assets.xcassets */,
+				66E36CB92780759800A52086 /* LaunchScreen.storyboard */,
+				66E36CBC2780759800A52086 /* Info.plist */,
+			);
+			path = "Transport App";
+			sourceTree = "<group>";
+		};
+		66E36CC22780797200A52086 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				66E36CC32780797200A52086 /* TitilliumWeb-Black.ttf */,
+				66E36CC42780797200A52086 /* TitilliumWeb-Bold.ttf */,
+				66E36CC52780797200A52086 /* TitilliumWeb-Regular.ttf */,
+				66E36CC62780797200A52086 /* TitilliumWeb-SemiBold.ttf */,
+				66E36CC72780797200A52086 /* TitilliumWeb-ExtraLight.ttf */,
+				66E36CC82780797200A52086 /* TitilliumWeb-BoldItalic.ttf */,
+				66E36CC92780797200A52086 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				66E36CCA2780797200A52086 /* OFL.txt */,
+				66E36CCB2780797200A52086 /* TitilliumWeb-SemiBoldItalic.ttf */,
+				66E36CCC2780797200A52086 /* TitilliumWeb-LightItalic.ttf */,
+				66E36CCD2780797200A52086 /* TitilliumWeb-Italic.ttf */,
+				66E36CCE2780797200A52086 /* TitilliumWeb-Light.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66E36CAA2780758F00A52086 /* Transport App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E36CBF2780759800A52086 /* Build configuration list for PBXNativeTarget "Transport App" */;
+			buildPhases = (
+				66E36CA72780758F00A52086 /* Sources */,
+				66E36CA82780758F00A52086 /* Frameworks */,
+				66E36CA92780758F00A52086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Transport App";
+			productName = "Transport App";
+			productReference = 66E36CAB2780758F00A52086 /* Transport App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E36CA32780758F00A52086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					66E36CAA2780758F00A52086 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 66E36CA62780758F00A52086 /* Build configuration list for PBXProject "Transport App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66E36CA22780758F00A52086;
+			productRefGroup = 66E36CAC2780758F00A52086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E36CAA2780758F00A52086 /* Transport App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66E36CA92780758F00A52086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E36CD72780797200A52086 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				66E36CD82780797200A52086 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				66E36CD12780797200A52086 /* TitilliumWeb-Regular.ttf in Resources */,
+				66E36CDA2780797200A52086 /* TitilliumWeb-Light.ttf in Resources */,
+				66E36CD62780797200A52086 /* OFL.txt in Resources */,
+				66E36CD22780797200A52086 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				66E36CD92780797200A52086 /* TitilliumWeb-Italic.ttf in Resources */,
+				66E36CD02780797200A52086 /* TitilliumWeb-Bold.ttf in Resources */,
+				66E36CD32780797200A52086 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				66E36CBB2780759800A52086 /* LaunchScreen.storyboard in Resources */,
+				66E36CD52780797200A52086 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				66E36CB82780759800A52086 /* Assets.xcassets in Resources */,
+				66E36CB62780758F00A52086 /* Main.storyboard in Resources */,
+				66E36CD42780797200A52086 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				66E36CCF2780797200A52086 /* TitilliumWeb-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E36CA72780758F00A52086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E36CB32780758F00A52086 /* ViewController.swift in Sources */,
+				66E36CAF2780758F00A52086 /* AppDelegate.swift in Sources */,
+				66E36CB12780758F00A52086 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66E36CB42780758F00A52086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E36CB52780758F00A52086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66E36CB92780759800A52086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E36CBA2780759800A52086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66E36CBD2780759800A52086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66E36CBE2780759800A52086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E36CC02780759800A52086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J3KP5K37W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Transport App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Transport;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efalloon.Transport-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66E36CC12780759800A52086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J3KP5K37W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Transport App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Transport;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efalloon.Transport-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E36CA62780758F00A52086 /* Build configuration list for PBXProject "Transport App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E36CBD2780759800A52086 /* Debug */,
+				66E36CBE2780759800A52086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E36CBF2780759800A52086 /* Build configuration list for PBXNativeTarget "Transport App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E36CC02780759800A52086 /* Debug */,
+				66E36CC12780759800A52086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66E36CA32780758F00A52086 /* Project object */;
+}
