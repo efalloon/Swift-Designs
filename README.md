@@ -11,10 +11,22 @@ By Euan Traynor © November 2021 - Current
 
 ##### Updates coming soon! 🥳🎉
 
-<ul>
-    <li>values of data.list[i].puntata</li>
-    <li>...</li>
-</ul>
+<div class="col-lg-12" id="list-puntate">
+    <script>
+        var listDiv = document.getElementById('list-puntate');
+        var ul=document.createElement('ul');
+        for (var i = 0; i < data.list.length; ++i) {
+              var li=document.createElement('li');
+              li.innerHTML = data.list[i].puntata;   // Use innerHTML to set the text
+              ul.appendChild(li);                                 
+        }
+        listDiv.appendChild(ul);    // Note here
+    </script>
+    <ul>
+        <li>values of data.list[i].puntata</li>
+        <li>...</li>
+    </ul>                              
+</div>
 
 ## Completed Designs ✅
 
