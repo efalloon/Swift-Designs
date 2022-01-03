@@ -11,28 +11,11 @@ By Euan Traynor © November 2021 - Current
 
 ##### Updates coming soon! 🥳🎉
 
-<div class="col-lg-12" id="list-puntate">
-    <script>
-        var listDiv = document.getElementById('list-puntate');
-        var ul=document.createElement('ul');
-        for (var i = 0; i < data.list.length; ++i) {
-              var li=document.createElement('li');
-              li.innerHTML = data.list[i].puntata;   // Use innerHTML to set the text
-              ul.appendChild(li);                                 
-        }
-        listDiv.appendChild(ul);    // Note here
-    </script>
-    <ul>
-        <li>values of data.list[i].puntata</li>
-        <li>...</li>
-    </ul>                              
-</div>
-
 ## Completed Designs ✅
 
 ### iPhone Applications *(iPhoneOS/iOS)*
 > *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps*
-- [Nike Shoes App](https://github.com/efalloon/Swift-Designs/tree/main/apps/Nike%20Shoe%20App) - Patryk Polak <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" alt="Shoes App by Patryk Polak"/></a>
+- [Nike Shoes App](https://github.com/efalloon/Swift-Designs/tree/main/apps/Nike%20Shoe%20App) - Patryk Polak 
 
 - https://dribbble.com/shots/10173177-Shoes-App
 - https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app
