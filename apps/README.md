@@ -1,6 +1,6 @@
 # Apps 👨‍💻
 > A composition of mobile app designs from Dribbble and Behance, developed and recreated in UIKit.
-> Click an associated app preview image to view it's original Dribbble Shot and designer.
+> Click an associated app preview image to view it's original Dribbble Shot and designer. ***Select the respective header to view the source code.***
 
 By Euan Traynor © November 2021 - Current
 
