@@ -1,17 +1,13 @@
-# App Designs in UIKit (Swift) 🚀🎨
+# Apps 👨‍💻
 > A composition of mobile app designs from Dribbble and Behance, developed and recreated in UIKit.
-
-Please note that not all Dribbble or Behance designs sourced had attributed Adobe XD, Sketch or Figma files attached for download, meaning that many of the redeveloped designs may have incorrect font families, icon packs or stock images. 
-
-This Github repository was created for education purposes to further develop and enhance my iOS development skills and processes. This work may be used for evidence of experience at job interviews. The following code/files will and should not be distributed on any app store. If there are any underlying issues or bugs, please contact the developer on [Twitter](https://twitter.com/EuanFTraynor).
-
-If you have a design suggestion or would like me to prototype your UX/UI concept, please reach out to me on Twitter also.
 
 By Euan Traynor © November 2021 - Current
 
-##### Updates coming soon! 🥳🎉
+### Nike Shoe App
+![Shoes App by Patryk Polak](https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900)
 
-## Completed Designs ✅
+### About
+> This was the first design from Dribbble that I selected
 
 ### iPhone Applications *(iPhoneOS/iOS)*
 > *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps*
