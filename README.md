@@ -9,8 +9,6 @@ If you have a design suggestion or would like me to prototype your UX/UI concept
 
 *By Euan Traynor © November 2021 - Current*
 
-- - - -
-
 ## Apps
 
 *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps* Click an associated app preview image to view it's original Dribbble Shot and designer. ***Select the respective header to view the source code.***
