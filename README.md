@@ -11,30 +11,20 @@ By Euan Traynor © November 2021 - Current
 
 ##### Updates coming soon! 🥳🎉
 
-## Completed Designs ✅
-
 > *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps* Click an associated app preview image to view it's original Dribbble Shot and designer. ***Select the respective header to view the source code.***
 
 ### [Nike Shoes App](https://github.com/efalloon/Swift-Designs/tree/main/apps/Nike%20Shoe%20App) - Patryk Polak 
-<a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" alt="Shoes App by Patryk Polak"/></a>
+<a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900"/></a>
 
-- https://dribbble.com/shots/10173177-Shoes-App
-- https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app
+### [CarbonMail App](https://github.com/efalloon/Swift-Designs/tree/main/apps/CarbonMail) - Maureen T'O 
+<a href="https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app"><img src="https://cdn.dribbble.com/users/5324583/screenshots/15776009/media/ce1ed0b2cd5b7e49fc6ad1a743028e61.png?compress=1&resize=1200x900"/></a>
+
 - https://dribbble.com/shots/14854794-Starbucks-app-UI-concept
 - https://dribbble.com/shots/15921850-Recipe-App
 - https://dribbble.com/shots/16393324-Minimalist-Designers-Categories-Page-Exploration-eCommerce
 - https://dribbble.com/shots/7749222-Full-Transport-Service
 
-#### Apple Watch Applications *(WatchOS)*
-> Currently None ⚠️
-
-#### iPad Applications *(iPadOS/iOS)*
-> Currently None ⚠️
-
-### Mac Applications *(MacOS)* 
-> Currently None ⚠️
-
-## Uncompleted Designs ⏳
+### Uncompleted Designs ⏳
 - https://dribbble.com/shots/16396562-Podcast-App-Concept-UI
 
 ## License
