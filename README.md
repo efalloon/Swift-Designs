@@ -15,11 +15,11 @@ If you have a design suggestion or would like me to prototype your UX/UI concept
 
 <p align="center">
     <div>
-        <a href="google"><h4>Nike Shoes App</h4> - Patryk Polak</a>
+        <a href="https://dribbble.com/shots/10173177-Shoes-App"><h4>Nike Shoes App</h4></a>
         <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" width="47.5%"/></a>
     </div>
     <div>
-        <a href="google"><h4>Nike Shoes App</h4> - Patryk Polak</a>
+        <a href="https://dribbble.com/shots/10173177-Shoes-App"><h4>Nike Shoes App</h4></a>
         <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" width="47.5%"/></a>
     </div>
 </p>
