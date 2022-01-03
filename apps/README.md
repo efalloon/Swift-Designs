@@ -1,9 +1,10 @@
 # Apps 👨‍💻
 > A composition of mobile app designs from Dribbble and Behance, developed and recreated in UIKit.
+> Click an associated app preview image to view it's original Dribbble Shot and designer.
 
 By Euan Traynor © November 2021 - Current
 
-### Nike Shoe App
+### [Nike Shoe App](https://github.com/efalloon/Swift-Designs/tree/main/apps/Nike%20Shoe%20App)
 <div class="hidden-in-page">
     <p align="center">
         <a href="https://dribbble.com/shots/10173177-Shoes-App">
