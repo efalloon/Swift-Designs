@@ -11,6 +11,11 @@ By Euan Traynor © November 2021 - Current
 
 ##### Updates coming soon! 🥳🎉
 
+<ul>
+    <li>values of data.list[i].puntata</li>
+    <li>...</li>
+</ul>
+
 ## Completed Designs ✅
 
 ### iPhone Applications *(iPhoneOS/iOS)*
