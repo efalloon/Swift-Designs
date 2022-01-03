@@ -13,8 +13,9 @@ By Euan Traynor © November 2021 - Current
 
 ## Completed Designs ✅
 
-### iPhone Applications *(iPhoneOS/iOS)*
 > *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps*
+
+#### iPhone Applications *(iPhoneOS/iOS)*
 - [Nike Shoes App](https://github.com/efalloon/Swift-Designs/tree/main/apps/Nike%20Shoe%20App) - Patryk Polak 
 
 - https://dribbble.com/shots/10173177-Shoes-App
@@ -24,10 +25,10 @@ By Euan Traynor © November 2021 - Current
 - https://dribbble.com/shots/16393324-Minimalist-Designers-Categories-Page-Exploration-eCommerce
 - https://dribbble.com/shots/7749222-Full-Transport-Service
 
-### Apple Watch Applications *(WatchOS)*
+#### Apple Watch Applications *(WatchOS)*
 > Currently None ⚠️
 
-### iPad Applications *(iPadOS/iOS)*
+#### iPad Applications *(iPadOS/iOS)*
 > Currently None ⚠️
 
 ### Mac Applications *(MacOS)* 
