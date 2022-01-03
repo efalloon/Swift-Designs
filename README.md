@@ -14,9 +14,8 @@ If you have a design suggestion or would like me to prototype your UX/UI concept
 *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps* Click an associated app preview image to view it's original Dribbble Shot and designer. ***Select the respective header to view the source code.***
 
 <p align="center">
-    <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" width="50%"/></a>
-    <a href="https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app"><img src="https://cdn.dribbble.com/users/5324583/screenshots/15776009/media/ce1ed0b2cd5b7e49fc6ad1a743028e61.png?compress=1&resize=1200x900" width="50%"/></a>
-    <a href="https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app"><img src="https://cdn.dribbble.com/users/5324583/screenshots/15776009/media/ce1ed0b2cd5b7e49fc6ad1a743028e61.png?compress=1&resize=1200x900" width="300"/></a>
+    <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" width="47.5%"/></a>
+    <a href="https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app"><img src="https://cdn.dribbble.com/users/5324583/screenshots/15776009/media/ce1ed0b2cd5b7e49fc6ad1a743028e61.png?compress=1&resize=1200x900" width="47.5%"/></a>
 </p>
 
 ### [Nike Shoes App](https://github.com/efalloon/Swift-Designs/tree/main/apps/Nike%20Shoe%20App) - Patryk Polak 
