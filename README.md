@@ -7,17 +7,31 @@ This Github repository was created for education purposes to further develop and
 
 If you have a design suggestion or would like me to prototype your UX/UI concept, please reach out to me on Twitter also.
 
-By Euan Traynor © November 2021 - Current
+*By Euan Traynor © November 2021 - Current*
 
-##### Updates coming soon! 🥳🎉
+- - - -
 
-> *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps* Click an associated app preview image to view it's original Dribbble Shot and designer. ***Select the respective header to view the source code.***
+*Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps* Click an associated app preview image to view it's original Dribbble Shot and designer. ***Select the respective header to view the source code.***
+
+<p float="left">
+  <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900"/></a>
+  <a href="https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app"><img src="https://cdn.dribbble.com/users/5324583/screenshots/15776009/media/ce1ed0b2cd5b7e49fc6ad1a743028e61.png?compress=1&resize=1200x900"/></a>
+</p>
 
 ### [Nike Shoes App](https://github.com/efalloon/Swift-Designs/tree/main/apps/Nike%20Shoe%20App) - Patryk Polak 
 <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900"/></a>
 
 ### [CarbonMail App](https://github.com/efalloon/Swift-Designs/tree/main/apps/CarbonMail) - Maureen T'O 
 <a href="https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app"><img src="https://cdn.dribbble.com/users/5324583/screenshots/15776009/media/ce1ed0b2cd5b7e49fc6ad1a743028e61.png?compress=1&resize=1200x900"/></a>
+
+### [Starbucks App](github) - Amir Omidvar
+<a href="dribbble"><img src="image"/></a>
+
+### [Hey App](github) - Name
+<a href="dribbble"><img src="image"/></a>
+
+<!--### [Hey App](github) - Name-->
+<!--<a href="dribbble"><img src="image"/></a>-->
 
 - https://dribbble.com/shots/14854794-Starbucks-app-UI-concept
 - https://dribbble.com/shots/15921850-Recipe-App
