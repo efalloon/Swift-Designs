@@ -14,9 +14,7 @@ If you have a design suggestion or would like me to prototype your UX/UI concept
 *Please note that some of the following mobile applications may include additional attributed iPad, Mac and or Watch apps* Click an associated app preview image to view it's original Dribbble Shot and designer. ***Select the respective header to view the source code.***
 
 <p align="center">
-    <div style="background-color:red; width:50%">
-        hello
-    </div>
+    <div style="height:100px;background-color:red">text</div>
 <!--    <a href="https://dribbble.com/shots/10173177-Shoes-App"><img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" width="47.5%"/>Nike Shoe App</a>-->
 <!--    <a href="https://dribbble.com/shots/15776009-CarbonMail-The-email-inbox-cleaning-app"><img src="https://cdn.dribbble.com/users/5324583/screenshots/15776009/media/ce1ed0b2cd5b7e49fc6ad1a743028e61.png?compress=1&resize=1200x900" width="47.5%"/>CarbonMail App</a>-->
 </p>
