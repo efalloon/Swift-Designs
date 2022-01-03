@@ -4,7 +4,13 @@
 By Euan Traynor © November 2021 - Current
 
 ### Nike Shoe App
-![Shoes App by Patryk Polak](https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900)
+<div class="hidden-in-page">
+    <p align="center">
+        <a href="https://dribbble.com/shots/10173177-Shoes-App">
+            <img src="https://cdn.dribbble.com/users/2459704/screenshots/10173177/media/8819104a668fdc1cc0c76c6249ee1e06.png?compress=1&resize=1200x900" alt="Shoes App by Patryk Polak"/>
+        </a>
+    </p>
+</div>
 
 ### About
 > This was the first design from Dribbble that I selected
