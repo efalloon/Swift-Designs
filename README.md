@@ -37,6 +37,12 @@ If you have a design suggestion or would like me to prototype your UX/UI concept
 ### Uncompleted Designs ⏳
 - https://dribbble.com/shots/16396562-Podcast-App-Concept-UI
 
+### Future Designs 🔮
+- https://dribbble.com/shots/6762456-Daily-UI-Challenge-069-Trending
+- https://dribbble.com/shots/15554005-NFT-Store-App-Concept
+- https://dribbble.com/shots/16624180-Mobile-Design-NFT-APP-Concept
+- https://dribbble.com/shots/11825905-Outcrowd-Blog
+
 ## License
 All written code and attributes are the intellectual property of Euan Traynor. Do NOT steal/publish this work or copy the repository. The designs adopted have been sourced from Dribbble and designer work will be accredited.
 
